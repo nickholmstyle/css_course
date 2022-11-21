@@ -6,7 +6,7 @@
 
 ### Author Links
 
-👋 Hello, I'm Dave Gray.
+👋 Hello, I'm Dave Gray. Hi Dave!
 
 ✅ [Check out my YouTube Channel with all of my tutorials](https://www.youtube.com/DaveGrayTeachesCode).
 
