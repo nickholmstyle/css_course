@@ -1,0 +1,48 @@
+* {
+  /* font-family: monospace; */
+  /* border: 3px solid black; */
+}
+
+button, input, textarea, select {
+  /* forms typically do not inheret font settings */
+  font: inherit ;
+}
+
+html {
+  /* best to keep font settings seperated in the html */
+  font-size: 22px;
+}
+
+body {
+  font-size: 22px;
+
+}
+
+main {
+  font-family: monospace;
+}
+
+h1, h2 {
+  color: blue;
+}
+
+p {
+  color: purple!important; 
+}
+
+p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+.gray {
+  color: gray;
+}
+
+#second {
+  font-style: italic;
+}
