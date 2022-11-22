@@ -1,7 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-    padding: 10%;
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* correct order */
+
+a {
+ color: hsl(207, 44%, 49%);
+}
+
+a:visited {
+  color: purple;
+}
+
+/* change the first number in hsl slightly to complement the original color. You can also you opacity if you keep the the hsl the same and add the 4th value */
+
+a:hover, a:focus {
+  /* color: hsl(187, 44%, 49%); */
+  color: hsl(207, 44%, 49%, 0.8);
+  background: greenyellow;
+}
+
+a:active {
+  color: red;
 }
