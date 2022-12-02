@@ -31,7 +31,7 @@ footer {
 header,
 footer {
   position: sticky;
-  background-color: #1E293B;
+  background-color: #1e293b;
   color: whitesmoke;
 }
 
@@ -48,6 +48,10 @@ nav {
 
 main {
   flex-grow: 1;
+}
+
+footer {
+  bottom: 0;
 }
 
 footer {
